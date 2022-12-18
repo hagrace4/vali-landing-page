@@ -7,27 +7,22 @@ body {
     font-family: sans-serif, Arial, Helvetica;
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .header {
     background-color: #1F2937;
     color: #fff;
     display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.header
-img {
-    width: 50px;
-    height: 50px;
-}
 
 .title {
     background-color: #1F2937;
-}
-
-.title,
-img {
-    width: 400px;
 }
 
 .rando-info {
@@ -37,4 +32,36 @@ img {
 button {
     background-color: #3882f6;
     color:white;
+}
+
+.header-img {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: auto;
+}
+
+.title-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+.header-links{
+    display: flex;
+    gap: 30px;
+}
+
+.header-links
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-links a:hover {
+    color: #3882f6;
 }
