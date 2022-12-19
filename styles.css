@@ -23,6 +23,12 @@ body {
 
 .title {
     background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+
+.left-title {
+    display: flex;
 }
 
 .rando-info {
