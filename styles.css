@@ -86,6 +86,7 @@ a {
     flex-wrap: wrap;
 }
 
+
 .rando-img {
     display: flex;
     align-items: center;
@@ -94,10 +95,7 @@ a {
     height: auto;
 }
 
-.rando-img > img {
-    width: 30%;
-    height: auto;
-}
+
 
 .quote {
     background-color: #e5e7eb;
