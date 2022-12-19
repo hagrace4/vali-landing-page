@@ -29,6 +29,8 @@ body {
 
 .left-title {
     display: flex;
+    flex-direction: column;
+    margin-right: 40px;
 }
 
 .rando-info {
@@ -38,6 +40,9 @@ body {
 button {
     background-color: #3882f6;
     color:white;
+    width: 100px;
+    height: 30px;
+
 }
 
 .header-img {
@@ -70,4 +75,25 @@ a {
 
 .header-links a:hover {
     color: #3882f6;
+}
+
+.rando-info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.rando-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+.quote {
+    background-color: #e5e7eb;
 }
