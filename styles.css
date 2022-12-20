@@ -7,8 +7,6 @@ body {
     font-family: sans-serif, Arial, Helvetica;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .header {
@@ -23,6 +21,7 @@ body {
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
 
 .left-title {
@@ -31,16 +30,14 @@ body {
     margin-right: 40px;
 }
 
-.rando-info {
-    background-color: white;
-}
+
 
 button {
     background-color: #3882f6;
     color:white;
     width: 100px;
     height: 30px;
-
+    border-radius: 12px;
 }
 
 .header-img {
@@ -53,9 +50,6 @@ button {
 }
 
 .title-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 400px;
     height: auto;
 }
@@ -76,27 +70,60 @@ a {
     color: #3882f6;
 }
 
+.quote {
+    background-color: #e5e7eb;
+}
+
 .rando-info {
     background-color: white;
+}
+
+.sign-up {
+    background-color: white;
+}
+
+.rando-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
-    flex-wrap: wrap;
+    padding-bottom: 15%;
+    justify-content: space-between;
 }
-
 
 .rando-img {
     display: flex;
-    align-items: center;
+    padding: 5px;
     justify-content: center;
-    width: 400px;
-    height: auto;
 }
 
+.rando-img 
+img {
+    width: 125px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
 
+.img-holder {
+    position: relative;
+    margin: 5px;
+    align-self: flex-start;
+    justify-content: space-between;
+    display: flex;
+}
 
-.quote {
-    background-color: #e5e7eb;
+.img-holder p {
+    position: absolute;
+    bottom: 10px;
+    transform: translateY(+110%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+  }
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
