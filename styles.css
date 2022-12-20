@@ -22,15 +22,27 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .left-title {
     display: flex;
     flex-direction: column;
     margin-right: 40px;
+    margin-left: 40px;
 }
 
+.right-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 
+.title-img {
+    width: 300px;
+    height: auto;
+}
 
 button {
     background-color: #3882f6;
@@ -49,10 +61,7 @@ button {
     height: auto;
 }
 
-.title-img {
-    width: 400px;
-    height: auto;
-}
+
 
 .header-links{
     display: flex;
@@ -121,6 +130,37 @@ img {
     margin: 0;
     font-size: 14px;
   }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-style: italic;
+}
+.quote p {
+    font-size: 20px;
+    text-align: center;
+    align-items: flex-start;
+
+}
+
+.quote .author {
+    font-weight: bold;
+}
+
+.quote
+.author  {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    font-size: large;
+    font-style: normal;
+}
 
 .footer {
     color: white;
